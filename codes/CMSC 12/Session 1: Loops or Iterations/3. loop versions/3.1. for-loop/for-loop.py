@@ -8,7 +8,7 @@ exit_value = 10
 
 
 # for-loop version 
-for current_number in range(10):    # <- take note! 'current_number' is a different variable now
+for current_number in range(3):    # <- take note! 'current_number' is a different variable now
     num_variable += 1               # <- update the number
     print(num_variable)             # <- print the number
 
@@ -33,7 +33,7 @@ for current_number in range(1):             # iteration 1
 
 #====== for-loop version (3) ======#        #========= linear version (3) =========#
 
-num_variable = 0                            num_variable = 0
+num_variable = 0                            num_variable = 0    # currentval: 3
 
 for current_number in range(3):             # iteration 1
     num_variable += 1                       num_variable += 1

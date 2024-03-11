@@ -1,14 +1,14 @@
 ''' This code is a while-loop version of the original version from item 3.0. '''
 
 # variable declarations
-num_variable = 0
+num_variable = 0    # current value: 2
 
 # STOP if already in this value!
 exit_value = 10
 
 
 # while-loop version 
-while (num_variable <= 10):    # <- do until variable <= 10!
+while (num_variable < 3):    # <- do until variable < 10!
     num_variable += 1          # <- update the number
     print(num_variable)        # <- print the number
 
@@ -21,13 +21,13 @@ while (num_variable <= 10):    # <- do until variable <= 10!
 
 num_variable = 0                            num_variable = 0
 
-while (num_variable <= 1):                  # iteration 1
+while (num_variable < 1):                  # iteration 1
     num_variable += 1                       num_variable += 1
     print(num_variable)                     print(num_variable)     <- prints what?
     
                                             # check if should stop now
-                                            if (num_variable <= 3):
-                                                exit(0)                                                
+                                            if !(num_variable < 1):
+                                                exit(0)
 
 #==================================#        #======================================#
 
@@ -42,12 +42,12 @@ while (num_variable <= 1):                  # iteration 1
 
 num_variable = 0                            num_variable = 0
 
-while (num_variable <= 3):                  # iteration 1
+while (num_variable < 3):                  # iteration 1
     num_variable += 1                       num_variable += 1
     print(num_variable)                     print(num_variable)     <- prints what?
     
                                             # check if should stop now
-                                            if (num_variable <= 3):
+                                            if !(num_variable < 3):
                                                 exit(0)
                                                 
                                                 
@@ -57,7 +57,7 @@ while (num_variable <= 3):                  # iteration 1
                                             print(num_variable)     <- prints what?
     
                                             # check if should stop now
-                                            if (num_variable <= 3):
+                                            if !(num_variable < 3):
                                                 exit(0)
                                                 
                                                 
@@ -67,7 +67,7 @@ while (num_variable <= 3):                  # iteration 1
                                             print(num_variable)     <- prints what?
     
                                             # check if should stop now
-                                            if (num_variable <= 3):
+                                            if !(num_variable < 3):
                                                 exit(0)
                                                 
                                                 
@@ -77,7 +77,7 @@ while (num_variable <= 3):                  # iteration 1
                                             print(num_variable)     <- prints what?
     
                                             # check if should stop now
-                                            if (num_variable <= 3):
+                                            if !(num_variable < 3):
                                                 exit(0)
                                                 
                                             # ... .. ... until infinity ... .. ... #
@@ -94,12 +94,12 @@ while (num_variable <= 3):                  # iteration 1
 
 num_variable = 0                            num_variable = 0
 
-while (num_variable <= 10):                 # iteration 1
+while (num_variable < 10):                 # iteration 1
     num_variable += 1                       num_variable += 1
     print(num_variable)                     print(num_variable)     <- prints what?
     
                                             # check if should stop now
-                                            if (num_variable <= 3):
+                                            if !(num_variable < 3):
                                                 exit(0)
                                                 
 
@@ -109,7 +109,7 @@ while (num_variable <= 10):                 # iteration 1
                                             print(num_variable)     <- prints what?
     
                                             # check if should stop now
-                                            if (num_variable <= 3):
+                                            if !(num_variable < 3):
                                                 exit(0)
                                                 
 
@@ -119,7 +119,7 @@ while (num_variable <= 10):                 # iteration 1
                                             print(num_variable)     <- prints what?
     
                                             # check if should stop now
-                                            if (num_variable <= 3):
+                                            if !(num_variable < 3):
                                                 exit(0)
                                                 
 
@@ -129,7 +129,7 @@ while (num_variable <= 10):                 # iteration 1
                                             print(num_variable)     <- prints what?
     
                                             # check if should stop now
-                                            if (num_variable <= 3):
+                                            if !(num_variable < 3):
                                                 exit(0)
                                                 
 
@@ -139,7 +139,7 @@ while (num_variable <= 10):                 # iteration 1
                                             print(num_variable)     <- prints what?
     
                                             # check if should stop now
-                                            if (num_variable <= 3):
+                                            if !(num_variable < 3):
                                                 exit(0)
                                                 
 
@@ -149,7 +149,7 @@ while (num_variable <= 10):                 # iteration 1
                                             print(num_variable)     <- prints what?
     
                                             # check if should stop now
-                                            if (num_variable <= 3):
+                                            if !(num_variable < 3):
                                                 exit(0)
                                                 
 
@@ -159,7 +159,7 @@ while (num_variable <= 10):                 # iteration 1
                                             print(num_variable)     <- prints what?
     
                                             # check if should stop now
-                                            if (num_variable <= 3):
+                                            if !(num_variable < 3):
                                                 exit(0)
                                                 
 
@@ -169,7 +169,7 @@ while (num_variable <= 10):                 # iteration 1
                                             print(num_variable)     <- prints what?
     
                                             # check if should stop now
-                                            if (num_variable <= 3):
+                                            if !(num_variable < 3):
                                                 exit(0)
                                                 
 
@@ -179,7 +179,7 @@ while (num_variable <= 10):                 # iteration 1
                                             print(num_variable)     <- prints what?
     
                                             # check if should stop now
-                                            if (num_variable <= 3):
+                                            if !(num_variable < 3):
                                                 exit(0)
                                                 
 
@@ -189,7 +189,7 @@ while (num_variable <= 10):                 # iteration 1
                                             print(num_variable)     <- prints what?
     
                                             # check if should stop now
-                                            if (num_variable <= 3):
+                                            if !(num_variable < 3):
                                                 exit(0)
                                                 
 
@@ -199,7 +199,7 @@ while (num_variable <= 10):                 # iteration 1
                                             print(num_variable)     <- prints what?
     
                                             # check if should stop now
-                                            if (num_variable <= 3):
+                                            if !(num_variable < 3):
                                                 exit(0)
                                                 
 
@@ -209,7 +209,7 @@ while (num_variable <= 10):                 # iteration 1
                                             print(num_variable)     <- prints what?
     
                                             # check if should stop now
-                                            if (num_variable <= 3):
+                                            if !(num_variable < 3):
                                                 exit(0)
                                                 
 

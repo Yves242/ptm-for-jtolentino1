@@ -84,3 +84,5 @@ print(num_variable)
 # iteration 20
 num_variable += 1
 print(num_variable)
+
+exit(0)
