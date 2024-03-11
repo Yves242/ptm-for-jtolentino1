@@ -4,6 +4,8 @@
 # made with the assistance of the famous AI tool ChatGPT,
 # just to make navigation of peer tutor materials easier for you.
 
+# clear the screen
+clear
 
 # Flag to track if the script has already run
 script_run=false
