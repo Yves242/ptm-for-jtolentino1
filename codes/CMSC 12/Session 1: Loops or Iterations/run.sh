@@ -30,12 +30,12 @@ select_file() {
     # put choices here
     choices=()
     
-    # Populate choices array with base filenames
+    # Populate choices array with base filenames sorted alphabetically
     while IFS= read -r -d '' file; do
         base_filename=$(basename "$file")
         choices+=("$base_filename")
-    done < <(find . -type f -name "*.py" -print0)
-    
+    done < <(find . -type f -name "*.py" -print0 | sort -z)
+
     # add last choice for quitting/exiting
     choices+=("Quit/Exit")
 
