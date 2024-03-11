@@ -4,7 +4,7 @@ Welcome to the `Session Homeworks` directory! This space is organized into sessi
 
 ## Sessions
 
-- **Session 1 (`March 11, 2024`):** Loops or Iterations
+- **Session 1 (March 11, 2024):** Loops or Iterations
 
 ## Contact
 

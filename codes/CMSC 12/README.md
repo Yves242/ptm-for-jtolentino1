@@ -4,7 +4,7 @@ Welcome to the `Session Codes` directory! This space is dedicated to organizing 
 
 ## Sessions
 
-- **Session 1 (`March 11, 2024`):** `Loops or iterations`
+- **Session 1 (March 11, 2024):** Loops or iterations
 
 ## Running Instructions
 
